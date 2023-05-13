@@ -1,0 +1,37 @@
+table {
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+th {
+	background-color: #ccc;
+	font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#fetch-data-btn {
+	margin-top: 15px;
+	font-size: 15px;
+	padding: 10px;
+	background-color: #9c1686;
+	color: white;
+	border: none;
+	border-radius: 1px;
+	cursor: pointer;
+}
+
+#fetch-data-btn:hover {
+	background-color: #69a9d7;
+}
+
+img{
+  width: 30%;
+}
